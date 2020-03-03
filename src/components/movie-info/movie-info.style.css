@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css?family=Iceland&display=swap");
+
+.info-container {
+  width: 80vw;
+  font-family: "Iceland", cursive;
+  margin: 10rem auto;
+}
+
+.info-row {
+  margin: 2rem auto;
+  display: grid;
+}
+
+.info-row button:hover {
+  transition: all 2s ease;
+  transform: scaleY(1.2);
+  background: lightgrey;
+}
+
+.info img {
+  display: flex;
+  width: 20%;
+  margin: 1rem auto;
+  outline: 1px solid grey;
+}
+
+.info-btn {
+  width: 100%;
+  margin: 0.5rem auto;
+  padding: 0.3rem 0;
+  border: 1px dotted grey;
+  letter-spacing: 0.5rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.details p {
+  width: 60%;
+  margin: 0.5rem auto;
+  padding: 0.5rem 0.8rem;
+  font-size: 1.1rem;
+  text-align: center;
+  border: 1px solid grey;
+}
+
+.details span {
+  width: 50%;
+  font-size: 1.3rem;
+  opacity: 0.9;
+  letter-spacing: 0.2rem;
+  color: black;
+  border: 1px dotted grey;
+  padding: 0.1rem 0.3rem;
+  font-family: "Iceland", cursive;
+  margin: 0.2rem auto;
+  text-align: center;
+}

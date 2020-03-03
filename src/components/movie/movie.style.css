@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css?family=Geostar&display=swap");
+
+.movie-container {
+  width: 30vw;
+  display: grid;
+  position: relative;
+  margin: 1rem auto;
+}
+
+.card {
+  margin: 1rem auto;
+  width: 80%;
+  height: 360px;
+  outline: 1px solid grey;
+}
+
+.movie-card img {
+  display: flex;
+  margin: 1rem auto;
+  width: 175px;
+  height: 250px;
+}
+
+.movie-card h5 {
+  letter-spacing: 0.1rem;
+  font-family: "Geostar";
+  border-top: 1px dotted grey;
+  border-bottom: 1px dotted grey;
+  text-align: center;
+  font-size: 1.2rem;
+  padding: 0.2rem 0;
+}
+
+.movie-btn {
+  width: 60%;
+  font-size: 1.2rem;
+  letter-spacing: 0.2rem;
+  padding: 0.2rem;
+  border: 1px dotted grey;
+  margin: 0 auto;
+  opacity: 0.9;
+  cursor: pointer;
+}
+
+.movie-btn:hover {
+  background: none;
+}
+
+.fa-film {
+  opacity: 0.7;
+}
